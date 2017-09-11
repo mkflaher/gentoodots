@@ -1,0 +1,8 @@
+add /dev/cdrom
+add ccda://1
+set input.cdio.priority=50
+cdio
+cd home
+cd
+bind common <key> cd
+help
